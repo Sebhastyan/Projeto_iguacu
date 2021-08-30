@@ -2,6 +2,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+import geopandas
+
 #   Este código cria dez arquivos .txt com uma matriz, onde as linhas são os anos, e as colunas são as estações, e adiciona um X caso contenha amostragem suficiente
 # para satisfazer a porcentagem desejada. Podendo ser configurado para analisar por mês, ou por ano.
 
